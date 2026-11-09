@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Nishanth — Python Backend Engineer in the making">
+  <title>Nishanth — Python Backend Engineer in the making</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060912"/>
+      <stop offset="1" stop-color="#0B1022"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gridFade" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="440" fill="url(#gridFade)"/></mask>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="520" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 460 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="dotGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="typeClip"><rect x="676" y="100" width="320" height="26"><animate attributeName="width" values="0;0;320" keyTimes="0;0.21;1" dur="1.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="438" rx="24"/></clipPath>
+    <path id="route1" d="M-40 395 C 220 360, 420 430, 640 392 S 1020 360, 1240 400"/>
+    <path id="route2" d="M-40 30 C 260 60, 470 10, 700 36 S 1010 70, 1240 28"/>
+    <path id="route3" d="M-40 420 C 300 410, 600 440, 1240 415"/>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="url(#grid)" mask="url(#gridMask)" opacity="0.55"/>
+    <circle cx="210" cy="150" r="340" fill="url(#glowCyan)"/>
+    <circle cx="1030" cy="360" r="320" fill="url(#glowViolet)"/>
+
+    <!-- data packets travelling along network routes -->
+    <g fill="none" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="3 7">
+      <use href="#route1"/><use href="#route2"/><use href="#route3"/>
+    </g>
+    <g filter="url(#dotGlow)">
+      <circle r="3.2" fill="#22D3EE"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#route1"/></animateMotion></circle>
+      <circle r="2.6" fill="#A78BFA"><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite"><mpath href="#route1"/></animateMotion></circle>
+      <circle r="3" fill="#F472B6"><animateMotion dur="9s" begin="-2s" repeatCount="indefinite"><mpath href="#route2"/></animateMotion></circle>
+      <circle r="2.4" fill="#34D399"><animateMotion dur="11s" begin="-6s" repeatCount="indefinite"><mpath href="#route3"/></animateMotion></circle>
+    </g>
+
+    <!-- LEFT: identity -->
+    <g font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace">
+      <rect x="64" y="72" width="236" height="34" rx="17" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.4"/>
+      <circle cx="86" cy="89" r="9" fill="#34D399" opacity="0.3">
+        <animate attributeName="r" values="5;11;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0;0.45" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="86" cy="89" r="5" fill="#34D399"/>
+      <text x="102" y="94" font-size="14" fill="#6EE7B7">status: 200 · online</text>
+    </g>
+
+    <g font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif">
+      <text x="58" y="206" font-size="98" font-weight="800" fill="url(#nameGrad)" filter="url(#blur)" opacity="0.55">Nishanth</text>
+      <text x="58" y="206" font-size="98" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1">Nishanth</text>
+      <text x="62" y="254" font-size="30" font-weight="600" fill="#E2E8F0">Python Backend Engineer<tspan fill="#64748B" font-weight="400" font-size="20" dx="10">· in the making</tspan></text>
+    </g>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16">
+      <text x="64" y="296" fill="#94A3B8">APIs <tspan fill="#334155">/</tspan> async <tspan fill="#334155">/</tspan> AI agents <tspan fill="#334155">/</tspan> data pipelines</text>
+      <g font-size="13">
+        <rect x="64" y="322" width="96" height="30" rx="8" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.35"/>
+        <text x="112" y="342" text-anchor="middle" fill="#67E8F9">◉ India</text>
+        <rect x="170" y="322" width="140" height="30" rx="8" fill="#0F172A" stroke="#A78BFA" stroke-opacity="0.35"/>
+        <text x="240" y="342" text-anchor="middle" fill="#C4B5FD">CS · 3rd year</text>
+        <rect x="320" y="322" width="178" height="30" rx="8" fill="#0F172A" stroke="#F472B6" stroke-opacity="0.35"/>
+        <text x="409" y="342" text-anchor="middle" fill="#F9A8D4">building in public</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: terminal -->
+    <g>
+      <rect x="640" y="52" width="500" height="336" rx="14" fill="#0B0F19" fill-opacity="0.92" stroke="url(#edge)" stroke-width="1.5"/>
+      <path d="M641 90 H1139" stroke="#1E293B"/>
+      <circle cx="664" cy="71" r="6" fill="#F87171"/>
+      <circle cx="684" cy="71" r="6" fill="#FBBF24"/>
+      <circle cx="704" cy="71" r="6" fill="#34D399"/>
+      <g font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14">
+        <text x="890" y="76" text-anchor="middle" fill="#475569" font-size="13">nishanth@backend: ~</text>
+
+        <text x="664" y="118" fill="#34D399">$</text>
+        <g clip-path="url(#typeClip)"><text x="680" y="118" fill="#E2E8F0">curl -s localhost:8000/whoami | jq</text></g>
+        <rect x="972" y="105" width="8" height="17" fill="#22D3EE" opacity="0">
+          <animate attributeName="x" values="680;680;972" keyTimes="0;0.21;1" dur="1.9s" fill="freeze"/>
+          <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="2s" fill="freeze"/>
+        </rect>
+
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.875;1" dur="2.4s" fill="freeze"/>
+          <text x="664" y="146" fill="#64748B">HTTP/1.1 <tspan fill="#34D399" font-weight="700">200 OK</tspan><tspan fill="#475569">  · content-type: application/json</tspan></text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.889;1" dur="2.7s" fill="freeze"/>
+          <text x="664" y="174" fill="#64748B">{</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.897;1" dur="2.9s" fill="freeze"/>
+          <text x="684" y="198" fill="#64748B"><tspan fill="#67E8F9">"name"</tspan>: <tspan fill="#C4B5FD">"Nishanth"</tspan>,</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.903;1" dur="3.1s" fill="freeze"/>
+          <text x="684" y="222" fill="#64748B"><tspan fill="#67E8F9">"role"</tspan>: <tspan fill="#C4B5FD">"backend engineer (in training)"</tspan>,</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.909;1" dur="3.3s" fill="freeze"/>
+          <text x="684" y="246" fill="#64748B"><tspan fill="#67E8F9">"stack"</tspan>: [<tspan fill="#C4B5FD">"Python"</tspan>, <tspan fill="#C4B5FD">"FastAPI"</tspan>, <tspan fill="#C4B5FD">"Java"</tspan>],</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.914;1" dur="3.5s" fill="freeze"/>
+          <text x="684" y="270" fill="#64748B"><tspan fill="#67E8F9">"building"</tspan>: <tspan fill="#C4B5FD">"AI agents · scrapers · APIs"</tspan>,</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.919;1" dur="3.7s" fill="freeze"/>
+          <text x="684" y="294" fill="#64748B"><tspan fill="#67E8F9">"motto"</tspan>: <tspan fill="#FBCFE8">"understand it, then ship it"</tspan></text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.923;1" dur="3.9s" fill="freeze"/>
+          <text x="664" y="318" fill="#64748B">}</text>
+        </g>
+        <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.929;1" dur="4.2s" fill="freeze"/>
+          <text x="664" y="352" fill="#34D399">$</text>
+          <rect x="680" y="339" width="8" height="17" fill="#22D3EE">
+            <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="438" rx="24" fill="none" stroke="url(#edge)" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>

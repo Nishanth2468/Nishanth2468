@@ -1,0 +1,69 @@
+{
+  "username": "Nishanth2468",
+  "exclude_languages": [],
+
+  "sections": [
+    { "id": "about",    "method": "GET",  "route": "/about",    "note": "who's behind the commits", "latency": "8ms" },
+    { "id": "stack",    "method": "GET",  "route": "/stack",    "note": "runtime & dependencies",   "latency": "11ms" },
+    { "id": "projects", "method": "GET",  "route": "/projects", "note": "things I've shipped",      "latency": "23ms" },
+    { "id": "activity", "method": "GET",  "route": "/activity", "note": "auto-synced every day",    "latency": "41ms" },
+    { "id": "now",      "method": "GET",  "route": "/now",      "note": "currently in progress",    "latency": "6ms" },
+    { "id": "connect",  "method": "POST", "route": "/connect",  "note": "say hi — I reply",         "latency": "1ms" }
+  ],
+
+  "projects": [
+    {
+      "id": "skyrary",
+      "title": "Sonic-Guard",
+      "repo": "Nishanth2468/SkyRary",
+      "method": "POST",
+      "route": "/webhook/github",
+      "badge": "HACKATHON",
+      "role": "author",
+      "description": "AI agents that review GitHub pull requests on their own. Code-review, security (Semgrep) and summary agents run in parallel and post one clean review on the PR.",
+      "tags": ["FastAPI", "asyncio", "Gemini", "Semgrep", "Webhooks"]
+    },
+    {
+      "id": "financial-document-extraction",
+      "title": "Financial Doc Extraction",
+      "repo": "Nishanth2468/Financial-Document-Extraction",
+      "method": "POST",
+      "route": "/extract",
+      "role": "author",
+      "description": "Pulls structured data out of financial documents, turning long reports and statements into clean fields that are ready to analyse.",
+      "tags": ["Python", "Parsing", "Data extraction"]
+    },
+    {
+      "id": "company-scraper",
+      "title": "Company Scraper",
+      "repo": "Nishanth2468/Company_Scraper",
+      "method": "GET",
+      "route": "/companies",
+      "role": "author",
+      "description": "Collects company data from the web automatically and saves it in a structured format, so research takes minutes instead of hours.",
+      "tags": ["Python", "Web scraping", "Automation"]
+    },
+    {
+      "id": "aoc-scraper",
+      "title": "AOC Scraper",
+      "repo": "Nishanth2468/AOC-Scraper",
+      "method": "GET",
+      "route": "/aoc",
+      "role": "author",
+      "description": "Python scraper that fetches AOC pages and turns them into structured, reusable data in a single run.",
+      "tags": ["Python", "Web scraping", "HTTP"]
+    }
+  ],
+
+  "contributions": [
+    {
+      "id": "nevertwice",
+      "title": "NeverTwice",
+      "repo": "Polisetti-Bharath/NeverTwice",
+      "badge": "HACKATHON · TEAM",
+      "role": "contributor",
+      "description": "Team hackathon project built together under time pressure. I contributed code to the team repository alongside the other members.",
+      "tags": ["Hackathon", "Team project", "Collaboration"]
+    }
+  ]
+}

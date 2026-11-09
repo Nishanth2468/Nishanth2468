@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Contributed to NeverTwice — Team hackathon project built together under time pressure. I contributed code to the team repository alongside the other members."><title>Contributed to NeverTwice — Team hackathon project built together under time pressure. I contributed code to the team repository alongside the other members.</title>
+<defs>
+  <linearGradient id="bgc0" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#0D1324"/>
+  </linearGradient>
+  <linearGradient id="edgec0" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="170">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.25"/><stop offset="1" stop-color="#F472B6"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 600.0 85.0;360 600.0 85.0" dur="14s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="txtc0" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset="0.55" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <pattern id="gridc0" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#1E293B" stroke-width="0.8"/>
+  </pattern>
+  <clipPath id="clipc0"><rect x="1" y="1" width="1198" height="168" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clipc0)"><rect width="1200" height="170" fill="url(#bgc0)"/><rect width="1200" height="170" fill="url(#gridc0)" opacity="0.35"/>
+<circle cx="110" cy="85" r="150" fill="#A78BFA" opacity="0.07"/>
+<g font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace">
+  <text x="34" y="52" font-size="13" fill="#64748B">git log --author</text>
+  <text x="34" y="84" font-size="13" fill="#A78BFA">● merged into</text>
+  <text x="34" y="108" font-size="13" fill="#94A3B8">Polisetti-Bharath/</text>
+</g>
+<path d="M226 30 V140" stroke="#1E293B"/>
+<text x="250" y="60" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="url(#txtc0)">NeverTwice</text>
+<text x="412" y="59" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#FBBF24">HACKATHON · TEAM</text>
+<text x="250" y="92" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#94A3B8">Team hackathon project built together under time pressure. I contributed code to the team</text><text x="250" y="115" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#94A3B8">repository alongside the other members.</text>
+<rect x="250.0" y="128" width="90.4" height="26" rx="7" fill="#22D3EE" fill-opacity="0.08" stroke="#22D3EE" stroke-opacity="0.35"/><text x="295.2" y="145.5" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#22D3EE">Hackathon</text><rect x="348.4" y="128" width="113.2" height="26" rx="7" fill="#A78BFA" fill-opacity="0.08" stroke="#A78BFA" stroke-opacity="0.35"/><text x="405.0" y="145.5" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#A78BFA">Team project</text><rect x="469.6" y="128" width="120.8" height="26" rx="7" fill="#F472B6" fill-opacity="0.08" stroke="#F472B6" stroke-opacity="0.35"/><text x="530.0" y="145.5" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#F472B6">Collaboration</text>
+<text x="1170" y="60" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#64748B">role: <tspan fill="#94A3B8">contributor</tspan></text>
+<text x="1170" y="146" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" fill="#22D3EE">open repo ↗</text>
+</g><rect x="1" y="1" width="1198" height="168" rx="18" fill="none" stroke="url(#edgec0)" stroke-opacity="0.7" stroke-width="1.5"/></svg>

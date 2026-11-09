@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Connection: keep-alive — thanks for visiting">
+  <title>Connection: keep-alive — thanks for visiting</title>
+  <defs>
+    <linearGradient id="beat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="0.8" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="4"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- server heartbeat: a faint baseline plus a bright pulse that keeps travelling -->
+  <path d="M0 62 H430 L452 62 L466 30 L482 96 L498 14 L514 84 L528 62 H672 L694 62 L708 30 L724 96 L740 14 L756 84 L770 62 H1200"
+        fill="none" stroke="#1E293B" stroke-width="2"/>
+  <path d="M0 62 H430 L452 62 L466 30 L482 96 L498 14 L514 84 L528 62 H672 L694 62 L708 30 L724 96 L740 14 L756 84 L770 62 H1200"
+        fill="none" stroke="url(#beat)" stroke-width="2.6" stroke-linejoin="round" filter="url(#glow)"
+        pathLength="100" stroke-dasharray="22 78">
+    <animate attributeName="stroke-dashoffset" values="22;-78" dur="3.4s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" text-anchor="middle">
+    <text x="600" y="128" fill="#64748B">HTTP/1.1 <tspan fill="#34D399">200 OK</tspan>  ·  connection: <tspan fill="#C4B5FD">keep-alive</tspan>  ·  thanks for visiting</text>
+  </g>
+</svg>
